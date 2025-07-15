@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+*.env.*
+
+# macOS
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# FastAPI logs and temp files
+*.log
+*.pid
+
+# Python distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+pytest_cache/
+
+# Mypy and Pyright
+.mypy_cache/
+.dmypy.json
+.pytype/
+.pyright/
+
+# Pytest and other caches
+.pytest_cache/
+
+# Uvicorn reload artifacts
+reload.*.json
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# SQLite database (if used)
+*.sqlite3
+
+# Generated OpenAPI docs
+openapi.json
+
+# VSCode launch configs (optional)
+.vscode/launch.json
