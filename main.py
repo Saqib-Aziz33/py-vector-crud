@@ -1,12 +1,13 @@
 from fastapi import FastAPI
 from routes import knowledge_base
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/", tags=["Main"])
 def ping_server():
-    return "server is running"
+    return HTMLResponse("<h1>server is running</h1>")
 
 
 app.include_router(router=knowledge_base.router, prefix="/api/knowledge-base")
